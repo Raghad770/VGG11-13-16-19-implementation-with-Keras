@@ -1,5 +1,6 @@
 # VGG11-13-16-19-implementation-with-Keras
 
+## Abstract
 VGG is a popular neural network architecture proposed by Karen Simonyan & Andrew Zisserman from the University of Oxford. It is also based on CNNs, and was applied to the ImageNet Challenge in 2014. The authors detail their work in their paper, Very Deep Convolutional Networks for large-scale Image Recognition [source](https://arxiv.org/pdf/1409.1556.pdf) 
 * The input dimensions of the architecture are fixed to the image size, (244 × 244).
 * a stack of convolutional layers with small receptive-field filters of size (3×3). In a few configurations the filter size is set to (1 × 1), which can be identified as a linear transformation of the input channels (followed by non-linearity).
@@ -11,4 +12,13 @@ VGG is a popular neural network architecture proposed by Karen Simonyan & Andrew
 <img src="vgg all.png" align="center" width="800" height="600"/>
 </center>
 
-the VGG paper you can check it for more details *_* [source]()
+the VGG paper you can check it for more details *_* [source](https://arxiv.org/pdf/1409.1556.pdf)
+## DataSet
+I used inte_image_classification dataset [source](https://www.kaggle.com/puneet6060/intel-image-classification).
+This Data contains around 25k images of size 150x150 distributed under 6 categories.
+{'buildings' -> 0,
+'forest' -> 1,
+'glacier' -> 2,
+'mountain' -> 3,
+'sea' -> 4,
+'street' -> 5 }
