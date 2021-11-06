@@ -24,5 +24,5 @@ This Data contains around 25k images of size 150x150 distributed under 6 categor
 'street' -> 5 }
 ## Resluts of Training and Validation accuracy
 <center>
-<img src="results.jpeg" align="center" width="600" height="600"/>
+<img src="results.jpeg" align="center" width="400" height="600"/>
 </center>
